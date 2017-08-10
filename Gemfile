@@ -43,11 +43,12 @@ gem 'rubypants', '~> 0.2.0'
 gem 'rake', '~> 0.9.2'
 gem 'acts_as_list'
 gem 'acts_as_tree_rails3'
-gem 'recaptcha', :require => 'recaptcha/rails', :branch => 'rails3'
+gem 'recaptcha', :require => 'recaptcha/rails'
 
 group :development, :test do
   gem 'ruby-debug19'
   gem 'factory_girl', '~> 2.2'
+  gem 'cucumber_factory'
   gem 'webrat'
   gem 'rspec-rails', '~> 2.0'
   gem 'simplecov', :require => false
